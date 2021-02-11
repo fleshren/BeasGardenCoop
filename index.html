@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Bea's Gardening Coop</title>
+		<link href='./index.css' rel='stylesheet'>
+		<script src='index.js'></script>
+		<script src='jquery.js'></script>
+		<link rel="icon" type="image/png" href="images/logoS.png">
+	</head>
+	<body>
+		<!--
+			Desktop version for responsiveness 
+		-->
+		<div class="desktop">
+			<header>
+				<h1 id="logo"><a href='./index.html'><img src="./images/logoB.png" alt="Logo" width="275px"></a></h1>
+				<nav id="navDesktop">
+					<ul>
+						<li><a href='./OutdoorPlants'>Outdoor Plants</a></li>
+						<li><a href='./IndoorPlants.html'>Indoor Plants</a></li>
+						<li><a href='./Planters'>Planters</a></li>
+						<li><a href='./Supplies'>Supplies</a></li>
+						<li><a href='./About'>About</a></li>
+						<li><a href='./Cart'><img src='./images/cart.png' alt="cart" id="cartNav" width="25px"></a></li>
+					</ul>
+				</nav>
+			</header>
+			<div id="homeBody" class="content">
+				<div id="left">
+					<h1>Welcome to Bea's</h1>
+					<p>Bea's Coop is here to help. There are many ways to find answers to your gardening questions, as well as find the perfect plants to fill up your garden. To view specific instructions for a plant, you must navigate to its product information page. If you have any remaining questions, feel free to contact our shop or stop by for a visit! You can even bring the plant to us for help diagnosing the problem or identifying the plant type.</p>
+					<h3>For Beginners:</h3>
+					<p>Every plant we sell comes with detailed care instructions so you know how to make your plants thrive. If you are still undecided on what the best fit for you is, we have a few popular suggestions.</p>
+					<ul>
+						<li><a href='./moneyTree.html'>Money Tree</a></li>
+						<li><a href='./Orchid.html'>Orchid</a></li>
+						<li><a href='./Jade.html'>Jade Plant</a></li>
+						<li><a href='./Aloe.html'>Aloe Plant</a></li>
+						<li><a href='./Sunflower.html'>Sunflowers</a></li>
+					</ul>
+				</div>
+				<div id="center">
+					<pre> </br> </pre>
+				</div>
+				<div id="right"><center>
+					<img id="bea" src="./images/bea.png" alt="Bea (Owner)" width="275px">
+				</center></div>
+			</div>
+			<footer id="footerDesktop">
+				<ul>
+					<li><a href='./OutdoorPlants'>Outdoor Plants</a></li>
+					<li><a href='./IndoorPlants.html'>Indoor Plants</a></li>
+					<li><a href='./Planters'>Planters</a></li>
+					<li><a href='./Supplies'>Supplies</a></li>
+					<li><a href='./About'>About</a></li>
+				</ul>
+			</footer>
+		</div>
+
+		<!--
+			Mobile version for responsiveness 
+		-->
+		<div class="mobile_device_480px">
+			<header>
+				<h1 id="logo"><a href='./index.html'><img src="./images/logoB.png" alt="Logo" width="500"></a></h1>
+				<img style="margin: 20px 0px 20px 400px;" id="hamburger" src="./images/hamburger.png" alt="Hamburger Button" width="75" onclick="menuOpen()">
+			</header>
+			<nav id="navMobile">
+				<ul>
+					<li><a href='./OutdoorPlants'>Outdoor Plants</a></li>
+					<li><a href='./IndoorPlants.html'>Indoor Plants</a></li>
+					<li><a href='./Planters'>Planters</a></li>
+					<li><a href='./Supplies'>Supplies</a></li>
+					<li><a href='./About'>About</a></li>
+					<li><a href='./Cart'>Cart</a></li>
+				</ul>
+			</nav>
+			<div id="homeBody" class="content">
+				<div id="leftMobile">
+					<h1 class="h1Mobile">Welcome to Bea's</h1>
+					<p>Bea's Coop is here to help. There are many ways to find answers to your gardening questions, as well as find the perfect plants to fill up your garden. To view specific instructions for a plant, you must navigate to its product information page. If you have any remaining questions, feel free to contact our shop or stop by for a visit! You can even bring the plant to us for help diagnosing the problem or identifying the plant type.</p>
+					<h3>For Beginners:</h3>
+					<p>Every plant we sell comes with detailed care instructions so you know how to make your plants thrive. If you are still undecided on what the best fit for you is, we have a few popular suggestions.</p>
+					<ul id="listMobile">
+						<li><a href='./moneyTree.html'>Money Tree</a></li>
+						<li><a href='./Orchid.html'>Orchid</a></li>
+						<li><a href='./Jade.html'>Jade Plant</a></li>
+						<li><a href='./Aloe.html'>Aloe Plant</a></li>
+						<li><a href='./Sunflower.html'>Sunflowers</a></li>
+					</ul>
+				</div>
+				<div id="rightMobile"><center>
+					<img id="bea" src="./images/bea.png" alt="Bea (Owner)" width="275px">
+				</center></div>
+			</div>
+		</div>
+	</body>
+</html>
